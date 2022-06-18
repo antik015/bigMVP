@@ -1,0 +1,11 @@
+Package: bigMVP
+Type: Package
+Title: Approximate marginal posterior inference for high-dimensional binary outcomes
+Version: 1.0
+Date: 2022-06-17
+Author: Antik Chakraborty
+Maintainer: Antik Chakraborty<antik015@purdue.edu>
+Description: Given a high-dimensional binary matrix of responses and a set of covariates, the package implements fast approximations to the marginal posterior distributions of regression coefficients and correlation coefficients under a multivariate probit model.
+License: MIT
+Imports: Rcpp (>= 1.0.8.3), MCMCpack, tmvnsim, mvtnorm
+LinkingTo: Rcpp, RcppArmadillo
