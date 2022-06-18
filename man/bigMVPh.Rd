@@ -2,7 +2,7 @@
 \alias{bigMVPh}
 %- Also NEED an '\alias' for EACH other topic documented here.
 \title{
-Fast approximations to the marginal posterior distributions of regression coefficients and correlation coefficients under a multivariate model.
+Fast approximations to the marginal posterior distributions of regression coefficients and correlation coefficients under a multivariate probit model.
 }
 \description{
 The function implements bigMVP method from Chakraborty et. al.(2022+) for approximating marginal distributions of parameters under a multivariate probit model. A hierarchical prior on the regression coefficients and the correlation coefficients is used here.
