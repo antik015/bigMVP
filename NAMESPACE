@@ -1,6 +1,0 @@
-useDynLib(bigMVP, .registration=TRUE)
-importFrom(Rcpp, evalCpp)
-exportPattern("^[[:alpha:]]+")
-import(MCMCpack)
-import(tmvnsim)
-import(mvtnorm)
